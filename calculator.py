@@ -14,6 +14,8 @@ else:
         z = int(x) * int(y) 
     elif sys.argv[1] == '/':
         z = int(x) / int(y)
+    elif sys.argv[1] == '^':
+        z = int(x) % int(y)
     else:
         print('You have provided an invalid operator!')
         z = None
