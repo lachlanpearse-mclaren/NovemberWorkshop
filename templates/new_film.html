@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        <title>All Films</title>
+    </head>
+    <body>
+        {% for film in newfilm %}
+        New film {{ film.title }} added successfully.
+        {% endfor %}
+        <br/><br/>
+        <a href='/films/submit'>Add Another Film</a>&nbsp;|&nbsp;<a href='/films/table'>Return to Film List</a>
+            
+                
+    </body>
+</html>
